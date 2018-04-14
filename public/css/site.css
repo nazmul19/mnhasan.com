@@ -1,0 +1,63 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(241, 235, 235);
+    /* line-height: 8px; */
+}
+
+.header {
+    /* background-color: crimson; */
+    height: 60px;
+}
+
+.content {
+    min-height: 75%;
+    color: rgb(14, 9, 9);
+}
+
+.footer {
+    color: #524d4d;
+    height: 40px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+    padding: 5px;
+}
+
+
+/*  Tagging CSS */
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.tags li {
+    float: left;
+}
+
+.tag {
+    background-color: crimson;
+    font-size: 70%;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 12px 0 18px;
+    position: relative;
+    margin: 0 5px 5px 0;
+    text-decoration: none;
+    -webkit-transition: color 0.2s;
+}
+
+
+/* Tagging CSS End */
